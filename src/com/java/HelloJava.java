@@ -13,6 +13,7 @@ public class HelloJava {
 		System.out.println("Price: " + price);
 		System.out.println("Gender: " + gender);
 		System.out.println("Married: " + married);
+		System.out.println("Testing IntelliJ");
 
 	}
 
