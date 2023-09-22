@@ -11,5 +11,18 @@ public class LeituraDeDados {
 
         System.out.println("Digite a idade:");
         age = sc.nextInt();
+
+        if (age < 0) System.out.println("Idade inválida!");
+
+        if (age >= 18 && age < 70) {
+            System.out.println("Maior de Idade!");
+
+        } else if (age >= 70 && age <= 99) {
+            System.out.println("Terceira Idade!");
+        } else if (age >= 100) {
+            System.out.println("Centenária!");
+        } else {
+            System.out.println("Menor de Idade!");
+        }
     }
 }
